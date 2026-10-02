@@ -20,15 +20,18 @@ Customer churn is a critical business metric. This project delivers a complete p
 ## 📁 Project Structure
 
 ```text
-churn-prediction-api/
-├── main.py                         # FastAPI application and endpoint logic
-├── random_forest_churn_model.pkl   # Serialized model and feature names
-├── requirements.txt                # Python dependencies
-├── Dockerfile                      # Container definition file
-├── pytest.ini                      # Test configurations
-├── README.md                       # Documentation
-└── tests/
-    └── test_main.py                # Automated unit tests using pytest
+telecom-churn-prediction-api/
+├── data/                         # Raw and processed datasets
+├── notebooks/                    # Jupyter notebooks for EDA and model training
+├── tests/                        # Automated unit tests using pytest
+│   └── test_main.py
+├── .gitignore                    # Git ignore settings
+├── Dockerfile                    # Container definition file
+├── main.py                       # FastAPI application and endpoint logic
+├── pytest.ini                    # Test configurations
+├── random_forest_churn_model.pkl # Serialized model and feature names
+├── README.md                     # Documentation
+└── requirements.txt              # Python dependencies
 ```
 
 ---
