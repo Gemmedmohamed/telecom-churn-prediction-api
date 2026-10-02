@@ -8,6 +8,7 @@ pandas
 numpy
 scikit-learn
 imbalanced-learn
+xgboost
 joblib
 
 # Visualization & Notebooks
