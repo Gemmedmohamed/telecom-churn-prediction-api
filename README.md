@@ -68,8 +68,8 @@ churn-prediction-api/
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
-   cd churn-prediction-api
+   git clone https://github.com/Gemmedmohamed/telecom-churn-prediction-api
+   cd telecom-churn-prediction-api
    ```
 
 2. **Create and activate a virtual environment:**
